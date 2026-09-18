@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e1b4b" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#6366f1" />
+      <stop offset="100%" stop-color="#a855f7" />
+    </linearGradient>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#818cf8" stop-opacity="0.2" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background rounded rect -->
+  <rect width="512" height="512" rx="112" fill="url(#bgGrad)" />
+
+  <!-- Outer Ring Accent -->
+  <rect x="24" y="24" width="464" height="464" rx="96" fill="none" stroke="url(#accentGrad)" stroke-width="4" stroke-opacity="0.3" />
+
+  <!-- Center Devices & Deployment symbol -->
+  <!-- Laptop base -->
+  <rect x="110" y="150" width="292" height="190" rx="16" fill="#1e293b" stroke="url(#accentGrad)" stroke-width="6" />
+  <rect x="130" y="170" width="252" height="145" rx="8" fill="#090d16" />
+
+  <!-- Code bracket symbol inside screen -->
+  <path d="M 210 210 L 175 242.5 L 210 275" fill="none" stroke="#38bdf8" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M 302 210 L 337 242.5 L 302 275" fill="none" stroke="#a855f7" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" />
+  <line x1="268" y1="205" x2="244" y2="280" stroke="#6366f1" stroke-width="7" stroke-linecap="round" />
+
+  <!-- Mobile phone overlay on bottom right -->
+  <rect x="310" y="235" width="112" height="185" rx="18" fill="#0f172a" stroke="#38bdf8" stroke-width="5" />
+  <rect x="322" y="250" width="88" height="145" rx="10" fill="#1e293b" />
+  <!-- Home indicator & notch -->
+  <rect x="348" y="241" width="36" height="4" rx="2" fill="#475569" />
+  <line x1="350" y1="384" x2="382" y2="384" stroke="#94a3b8" stroke-width="3" stroke-linecap="round" />
+  <!-- Sparkle on phone -->
+  <circle cx="366" cy="315" r="14" fill="#38bdf8" />
+  <path d="M 366 295 L 366 335 M 346 315 L 386 315" stroke="#ffffff" stroke-width="3.5" stroke-linecap="round" />
+
+  <!-- Deploy Rocket / Arrow -->
+  <path d="M 120 375 C 150 355, 200 355, 230 375" fill="none" stroke="#10b981" stroke-width="4" stroke-dasharray="6,6" />
+  <circle cx="120" cy="375" r="6" fill="#10b981" />
+  <polygon points="230,375 218,368 222,375 218,382" fill="#10b981" />
+
+  <!-- Fast Cloud Tag -->
+  <g transform="translate(140, 95)">
+    <rect x="0" y="0" width="130" height="36" rx="18" fill="url(#accentGrad)" />
+    <text x="65" y="23" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-weight="bold" font-size="14" text-anchor="middle">APP FORGE</text>
+  </g>
+</svg>

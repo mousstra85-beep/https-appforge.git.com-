@@ -1,0 +1,6 @@
+{
+  "name": "Générateur et Déployeur d'Applications",
+  "description": "Plateforme complète pour concevoir, tester, empaqueter (APK, AAB, PWA) et déployer des applications et sites web instantanément à partir d'une explication écrite.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
